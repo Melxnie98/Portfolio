@@ -1,7 +1,132 @@
 ---
-title: Mental models for designers PART 2
-description: "Consider that for a moment: everything we see around us is assumed to have had a cause and is contingent upon."
-date: Sep 14 2021
+title: Fractal Art - Python
+description: Fractal art through an interface developed for a graphics for digital media module using Turtle Graphics 
+date: Oct 31 2022
 ---
+THE INTERFACE
 
-This is an example post. There's another one [here](/posts/example-post).
+The interface contains the turtle canvas, which is used to draw the figures.
+The control Panel is used to input information in order control the output 
+figure. It has an order entry box to input the amount of recursive steps,
+a length entry box which dictates the length/radius of lines and circles.
+It also has size and speed sliders which controll the pen speed and pen width,
+I had hoped to get this working while the program ran however i ran out of time
+so in order for these to work they must be used before the 'draw' button
+is pressed.
+the draw button draws the figure with your inputs, the clear button clears your
+screen and inputs and also resets the turtle. 
+The dropdown menu allows you to pick from my list of figures.
+I added a bright pink colour to the GUI but after some time I started to feel 
+as though the colour was really affecting how the figures looked so I decided 
+to settle for a less in your face colour to allow the figures to be the more 
+visually stimulating part. For this reason i setteled for the light colour 
+options lavender blush and AliceBlue.
+
+I also considered having a background colour and pen colour option in my GUI
+but I decided that because I put so much work into the pen colour change and 
+the colour schemes of my fractals that I wanted them to stay the colours that
+they were, I simply couldnt allow my cherry blossom tree to be green and blue!
+
+FIGURE 1 = Dandelion
+
+This is a dandelion. I changed the angle and amount of lines in the original 
+shape done in class.
+It starts with a line and then breaks out into more lines at various angles 
+with varying lengths. Reccomended input values: 5,300 
+However, if pen size is increased a smaller order value is reccomended.
+
+
+FIGURE 2 = Triangular Sierpinsky Gasket
+
+This is a triangular Sierpinski gasket.
+The larger the length, the bigger the triangle. It draws smaller triangles of 
+the same angle with various colours inside. 
+I didn't really like the original as it was all one colour so I created it in 
+a different file using a range of colours that I thought worked nicely together
+and 'pen.color(colors[j%6]) to switch between them at regular intervals.
+It is an equilateral triangle. 
+Reccomended input values:5,500
+A larger pen is nice as it allows you to see the colours
+
+
+FIGURE 3 = Square Gasket
+
+This figure is based on the Sierpinsky gasket. This time it is a square
+instead of a triangle.I originally had a fractal that  looked like a cross 
+within a square but i wanted to change it a little This was acheived by using 
+90 degree angles and one extra recursive line than the triangle. 
+Similarly to the Triangular gasket I thought the lines on their own in one 
+colour were a bit boring so I used a different file with a range of colours 
+that i thought would work well together.
+Reccomended value inputs: 4,300 A slight increase in pen size is nice!
+
+
+FIGURE 4 = Sacred Flower 
+
+This is a symbol of Sacred Geometry which represents the cycle of life.
+It is said to encompass the most meaningful patterns in our universe.
+I drew this with a compass in school as a child so I really wanted to try to 
+recreate it. I had huge difficulty with making this figure as maths is not my  
+strong point and the beginning of the new section  of circle starts between the
+radius length and the radiuslength*2 but I eventually managed to calculate the 
+right distances. 
+Reccomended input values: 3,80 The length value should be lower as it is a 
+radius meaning the size will double.
+It also looks a little nicer with a bigger pen size
+
+
+FIGURE 5 = Flower of Life
+
+This is an elaboration of the Sacred Flower. This version has smaller versions 
+of itself. It also leaves the trail lines to add more detail rather than using
+pen.up() and pen.down(). I had planned to use seperate colours for each circle
+like in the sacred flower. However when I tried this it took away from the 
+design so i decided to go for a more simple colour scheme. 
+Reccomended input values: 3,80
+
+FIGURE 6 = Andrews Cross
+
+This figure is a recursive cross.It uses a recursive function and and 
+then turns back on itself and repeats to give the design on two sides.
+Reccomended input values: 6,500 
+It is more detailed the higher the order number however this slows the process!
+
+FIGURE 7 = Levy C Curve
+
+The Levy C Curve starts with a line. 
+The line is then replaced with two lines and a 45 degree angle.
+The more splits that happen the nicer the fractal 
+Reccomended input values: 10,6000\nLength value must be high to see the 
+detail as recursion effects the length.
+
+
+FIGURE 8 = Willow Branch
+
+This figure is based on a willow branch. 
+I changed the direction and colour of the fern figure drawn in class and 
+added some white circles for the little fluff balls that they get in the 
+spring! 
+Reccomended input values: 5,150 - however this is pretty time consuming so for
+a more speedy experiance 3,150
+
+
+FIGURE 9 = Snowflake
+
+This figure is inspired by the Koch curve. 
+I wanted yo make a less basic snowflake than the one we had made already 
+so i used the samw recursive lines set at a different n angle to make five 
+decorative points. 
+Reccomended input values: 5,300(for detail) 2,300(for speed)
+
+
+FIGURE 10 = Cherry Blossom
+
+This figure incorporates the basic tree figure and adds a flower originally 
+built for figure 4. I decided to add the two together in order to get a cherry 
+blossom tree because I started having fun and I think they are pretty trees. 
+This was done by adding the circle figure from the circle.py file. I tried
+to pick colours that match the tree in real life but theyse are quite light so 
+I had to pick a background that allowed them to show properly.
+Recommended input values: 3,200
+
+To doenload the application / code please visit [here](https://github.com/Melxnie98/TurtleGraphicsFractals/tree/main).
