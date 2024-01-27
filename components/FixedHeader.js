@@ -8,7 +8,7 @@ const FixedHeader = ({ title }) => {
     <header className={styles.fixedHeader} >
         
        <div className={styles.navigation}>
-        <a href="tel:+65212761137">
+        <a href="tel:+64212761137">
           <img  src="/logos/phone.png" alt="Phone" className={styles.phone}/>
         </a>
         <a href="https://github.com/Melxnie98">
