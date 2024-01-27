@@ -8,8 +8,8 @@ import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
 
 import { useRouter } from 'next/router';
-import ScrollableHeader from '@components/ScrollableHeader';
-import FixedHeader from '@components/FixedHeader';
+import ScrollableHeader from '@components/ScrollableHeader.js';
+import FixedHeader from '@components/FixedHeader.js';
 
 export default function Index({ posts, globalData }) {
   const router = useRouter();

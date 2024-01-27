@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 import 'prismjs/themes/prism-tomorrow.css';
-import FixedHeader from '@components/FixedHeader'
-import ScrollableHeader from '@components/ScrollableHeader';
+import FixedHeader from '@components/FixedHeader.js'
+import ScrollableHeader from '@components/ScrollableHeader.js';
 
 function MyApp({ Component, pageProps }) {
   return (
