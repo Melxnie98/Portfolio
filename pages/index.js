@@ -8,8 +8,8 @@ import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
 
 import { useRouter } from 'next/router';
-import ScrollableHeader from '@components/ScrollableHeader.js';
-import FixedHeader from '@components/FixedHeader.js';
+import ScrollableHeader from '../components/ScrollableHeader.js';
+import FixedHeader from '../components/FixedHeader.js';
 
 export default function Index({ posts, globalData }) {
   const router = useRouter();
@@ -19,6 +19,10 @@ export default function Index({ posts, globalData }) {
   }
   return (
     <Layout>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Head>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
