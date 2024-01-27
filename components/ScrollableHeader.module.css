@@ -32,7 +32,8 @@
     margin-top: 0;
     margin-left: 0;
     margin-bottom: 0;
-    width: 15%; /* Adjust the size of the logo as needed */
+    height: 60px;
+    width: 60px;
     float: right;
     margin-right: 50px; 
   }
@@ -77,11 +78,9 @@
       color: #e6d7ff;
     }
     .logo {
-      margin-top: 0;
-      margin-left: 0;
-      margin-bottom: 0;
-      width: 15%; /* Adjust the size of the logo as needed */
-      float: right;
+        height: 60px;
+        width: 60px;
+        float: right;
     
     }
   }

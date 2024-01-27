@@ -26,7 +26,7 @@ export default function Index({ posts, globalData }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Header>
       <main className="w-full">
-      <h1 className="text-3xl lg:text-5xl text-center mb-12">
+        <h1 className="text-3xl lg:text-5xl text-center mb-12">
           About Me
         </h1>
         <p>
@@ -38,22 +38,20 @@ export default function Index({ posts, globalData }) {
         </h1>
         <p>
           My diverse skill set encompasses a range of programming languages such as JavaScript, CSS, HTML, C#, PHP, Swift, Java, ChucK, and Python. I am proficient in utilizing development tools like Unity, Pro Tools, LogicPro, FinalCut, and XCode. Additionally, my expertise extends to Human-Computer Interaction (HCI), Blender, and various languages including Spanish, Irish, Japanese, and English.
-          </p>
-          <h1 className="text-3xl lg:text-5xl text-center mb-12">
+        </p>
+        <h1 className="text-3xl lg:text-5xl text-center mb-12">
           Experience:
         </h1>
         <p>
-          
           As a Laboratory Demonstrator at University College Cork, I immersed myself in both audio & sound engineering and web development for digital media. Guiding students on studio-based sound engineering and teaching web development, I emphasized user-responsive applications using Java.
-
+        </p>
+        <p>
           In my role as a Freelance Web Designer/Developer at Appoint One, I successfully designed and implemented a responsive website using Node.js, CSS, and HTML for Appoint One Mediation Services. My focus on usability and accessibility, coupled with optimizing the website for speed and SEO, showcased my commitment to delivering high-quality web solutions.
-          </p>
-          <h1 className="text-3xl lg:text-5xl text-center mb-12">
+        </p>
+        <h1 className="text-3xl lg:text-5xl text-center mb-12">
           Projects:
         </h1>
         <p>
-          
-
           Masters Dissertation: Developed a VR tool for empathy training in student intellectual disability nurses, incorporating 360 video, ambisonic sound, and haptic responses delivered through Unity and C# for Android.
 
           3D Animation: Modeled and created short animations using Blender & Three.js with WebXR.
