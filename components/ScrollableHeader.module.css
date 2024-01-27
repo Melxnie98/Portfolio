@@ -18,7 +18,7 @@
     display: block; /* Show the burger icon on small screens */
     cursor: pointer;
     font-size: 24px;
-    color: #6d9340;
+    color: #e6d7ff;
   }
   
   .headerContent {
@@ -74,7 +74,7 @@
   
     .burgerIcon {
       font-size: 24px;
-      color: #6d9340;
+      color: #e6d7ff;
     }
     .logo {
       margin-top: 0;
