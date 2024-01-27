@@ -1,0 +1,36 @@
+/* styles/FixedHeader.module.css */
+.fixedHeader {
+    position:relative;
+    left: 0;
+    width: 100%;
+    right: 0;
+    background-color:#6D9340;
+    color: #ffffff ;
+    padding: 10px;
+    z-index: 1;
+    display:flex;
+    justify-content: flex-end;
+  }
+  .icons{
+    height: 30px;
+    width: 30px;
+  }
+  .phone{
+    height: 25px;
+    width: 25px;
+  }
+  
+  .title {
+    font-size:x-large;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .navItem {
+    cursor: pointer;
+    padding: 5px;
+    justify-content: flex-end;
+  }
+    

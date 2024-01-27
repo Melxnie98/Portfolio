@@ -1,0 +1,105 @@
+/* styles/ScrollableHeader.module.css */
+
+.scrollableHeader {
+    position: sticky;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: large;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+  }
+  
+  .title {
+    margin: 0;
+  }
+  
+  .burgerIcon {
+    display: block; /* Show the burger icon on small screens */
+    cursor: pointer;
+    font-size: 24px;
+    color: #6d9340;
+  }
+  
+  .headerContent {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .logo {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    width: 15%; /* Adjust the size of the logo as needed */
+    float: right;
+    margin-right: 50px; 
+  }
+  
+  .navigation {
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    flex-shrink: 1;
+  }
+  
+  .navItem {
+    flex-shrink: 1;
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 0;
+  }
+  
+  /*phone*/
+  @media only screen and (max-width: 600px) {
+    .navigation {
+      /*display: none;  Hide the regular navigation on small screens */
+      flex-direction: column; /* Stack items vertically */
+      position: absolute;
+      
+      right: 0;
+      width:100%;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .navItem {
+      width: 100%; /* Make items take full width */
+      display: none;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid #ddd; /* Add a border between items */
+    }
+  
+    .burgerIcon {
+      font-size: 24px;
+      color: #6d9340;
+    }
+    .logo {
+      margin-top: 0;
+      margin-left: 0;
+      margin-bottom: 0;
+      width: 25%; /* Adjust the size of the logo as needed */
+      float: right;
+    
+    }
+  }
+  
+  .dropdownMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdownMenu > div {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  

@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { getPosts } from '../utils/mdx-utils';
-
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Layout, { GradientBackground } from '../components/Layout';
@@ -8,7 +7,16 @@ import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
 
+import { useRouter } from 'next/router';
+import ScrollableHeader from '@components/ScrollableHeader';
+import FixedHeader from '@components/FixedHeader';
+
 export default function Index({ posts, globalData }) {
+  const router = useRouter();
+  
+  const navigateTo = (path) => {
+    router.push(path);
+  }
   return (
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
