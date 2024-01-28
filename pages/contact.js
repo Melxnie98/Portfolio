@@ -8,6 +8,7 @@ import { useRouter } from 'next/router';
 import Layout, { GradientBackground } from '../components/Layout';
 import SEO from '../components/SEO';
 import { getGlobalData } from '../utils/global-data';
+import { getPosts } from '../utils/mdx-utils';
 
 export default function ContactPage({ posts, globalData }) {
   const router = useRouter();
