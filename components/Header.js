@@ -1,11 +1,16 @@
 import Link from 'next/link';
+import Head from 'next/head';  // Import Head component
 
 export default function Header({ name }) {
   return (
     <header className="pt-20 pb-12">
-      <link rel="icon" href="/favicon.ico" />
-      {/*<div className="w-12 h-12 rounded-full block mx-auto mb-4 bg-gradient-conic from-gradient-3 to-gradient-4" />*/}
-      <img src="/images/planets.png" alt="Logo"/>
+      {/* Include the favicon link inside the Head component */}
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      
+      {/* The rest of your header content */}
+      <img src="/images/planets.png" alt="Logo" />
       <p className="text-2xl dark:text-white text-center">
         <Link href="/">
           <a>{name}</a>
@@ -14,3 +19,4 @@ export default function Header({ name }) {
     </header>
   );
 }
+
