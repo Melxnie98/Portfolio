@@ -30,14 +30,14 @@ export default function About({ posts, globalData }) {
           Hello, I'm Melanie, a creative and highly motivated graduate with a passion for crafting innovative digital experiences. My academic journey includes earning an MSc in Interactive Media from University College Cork and a BA in Advanced Spanish & Linguistics with TESOL from the University of Limerick.
         </p>
         
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">
+        <h1 >
           Skills
         </h1>
         <p>
           My diverse skill set encompasses a range of programming languages such as JavaScript, CSS, HTML, C#, PHP, Swift, Java, ChucK, and Python. I am proficient in utilizing development tools like Unity, Pro Tools, LogicPro, FinalCut, and XCode. Additionally, my expertise extends to Human-Computer Interaction (HCI), Blender, and various languages including Spanish, Irish, Japanese, and English.
         </p>
         
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">
+        <h1 >
           Projects:
         </h1>
         <p>
