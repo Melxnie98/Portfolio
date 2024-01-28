@@ -13,7 +13,7 @@ const ContactPage = () => {
       router.push(path);
     }
   return (
-    <div >
+    <Layout>
       <Header>
         <title>Contact me</title>
         <link rel="icon" href="/favicon.ico" />
@@ -21,15 +21,10 @@ const ContactPage = () => {
       </Header>
 
       <main>
-     
         <ContactForm  />
-      
-
-      
-     
       </main>
      
-    </div>
+      </Layout>
   );
 };
 
