@@ -28,9 +28,9 @@ export default function ContactPage({ posts, globalData }) {
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           ⭐Contact me ⭐
         </h1>
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          <ContactForm  />
-        </h1>
+        
+        <ContactForm  />
+        
       </main>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
