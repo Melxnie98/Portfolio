@@ -58,7 +58,6 @@
       /*display: none;  Hide the regular navigation on small screens */
       flex-direction: column; /* Stack items vertically */
       position: absolute;
-      
       right: 0;
       width:100%;
       background-color: #ffffff;
@@ -78,11 +77,13 @@
       color: #e6d7ff;
     }
     .logo {
-        height: 60px;
-        width: 60px;
-        float: right;
-        margin-right: 50px; 
-    
+      margin-top: 0;
+      margin-left: 0;
+      margin-bottom: 0;
+      height: 60px;
+      width: 60px;
+      float: right;
+      margin-right: 300px; 
     }
   }
   
