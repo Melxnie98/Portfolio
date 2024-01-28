@@ -5,6 +5,7 @@ import ScrollableHeader from '../components/ScrollableHeader';
 import ContactForm from '../components/ContactForm';
 import styles from '../components/ContactForm.module.css';
 import { useRouter } from 'next/router';
+import Layout, { GradientBackground } from '../components/Layout';
 
 const ContactPage = () => {
   const router = useRouter();
