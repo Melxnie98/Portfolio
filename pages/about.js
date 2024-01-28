@@ -9,9 +9,9 @@ import Layout, { GradientBackground } from '../components/Layout';
 import SEO from '../components/SEO';
 import { getGlobalData } from '../utils/global-data';
 
-const AboutPage = () => {
-  const router = useRouter();
-  
+export default function About({ posts, globalData }) {
+    const router = useRouter();
+    
     const navigateTo = (path) => {
       router.push(path);
     }
@@ -74,4 +74,10 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export function getStaticProps() {
+    const posts = getPosts();
+    const globalData = getGlobalData();
+  
+    return { props: { posts, globalData } };
+  }
+  
