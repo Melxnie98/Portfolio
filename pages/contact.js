@@ -9,12 +9,12 @@ import Layout, { GradientBackground } from '../components/Layout';
 import SEO from '../components/SEO';
 import { getGlobalData } from '../utils/global-data';
 
-const ContactPage = () => {
+export default function ContactPage({ posts, globalData }) {
   const router = useRouter();
   
-    const navigateTo = (path) => {
-      router.push(path);
-    }
+  const navigateTo = (path) => {
+    router.push(path);
+  }
   return (
     <Layout>
       <Header>
@@ -40,4 +40,9 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export function getStaticProps() {
+  const posts = getPosts();
+  const globalData = getGlobalData();
+
+  return { props: { posts, globalData } };
+}
