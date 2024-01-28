@@ -24,7 +24,7 @@ export default function About({ posts, globalData }) {
 
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          About Me
+        ⭐About Me⭐
         </h1>
         <p>
           Hello, I'm Melanie, a creative and highly motivated graduate with a passion for crafting innovative digital experiences. My academic journey includes earning an MSc in Interactive Media from University College Cork and a BA in Advanced Spanish & Linguistics with TESOL from the University of Limerick.
