@@ -65,9 +65,7 @@ const ScrollableHeader = ({ title }) => {
             <div className={styles.dropdownMenu}>
               {/* Dropdown menu items go here */}
               <div onClick={() => navigateTo('/index')}>Home</div>
-              <div onClick={() => navigateTo('/services')}>Services</div>
               <div onClick={() => navigateTo('/about')}>About</div>
-              <div onClick={() => navigateTo('/commitment')}>Our Commitment</div>
               <div onClick={() => navigateTo('/contact')}>Contact</div>
             </div>
           )}
