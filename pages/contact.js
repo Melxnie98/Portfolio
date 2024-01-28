@@ -23,7 +23,7 @@ const ContactPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Header>
 
-      <main>
+      <main className="w-full">
         <ContactForm  />
       </main>
      
