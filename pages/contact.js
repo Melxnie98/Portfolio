@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import ScrollableHeader from '@components/ScrollableHeader';
+import ScrollableHeader from '../components/ScrollableHeader';
 import ContactForm from '../components/ContactForm';
 import styles from '../components/ContactForm.module.css';
 import { useRouter } from 'next/router';
