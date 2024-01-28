@@ -19,14 +19,14 @@ export default function ExperiancePage({ posts, globalData }) {
   return (
     <Layout>
       <Header>
-        <title>Contact me</title>
+        <title>My experience</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Header>
 
       <main className="w-full">
       <h1 className="text-3xl lg:text-5xl text-center mb-12">
-        ⭐My previous work exeriance ⭐
+        ⭐Experience in the Field⭐
         </h1>
         <p>
           As a Laboratory Demonstrator at University College Cork, I immersed myself in both audio & sound engineering and web development for digital media. Guiding students on studio-based sound engineering and teaching web development, I emphasized user-responsive applications using Java.
