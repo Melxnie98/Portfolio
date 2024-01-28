@@ -1,0 +1,50 @@
+/* Add these styles to your CSS or styled-components */
+
+.contact-form {
+    max-width: 500px;
+    margin: 0;
+    padding: 30px;
+    background-color:#6D9340; /* Green background color */
+    border-radius: 10px; /* Rounded corners */
+  
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff; /* White text color */
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    background-color: #fff; /* White background color */
+    color: #e6d7ff; /* Green text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:disabled {
+    background-color: #ccc; /* Grey background color for disabled state */
+    color: #999; /* Grey text color for disabled state */
+    cursor: not-allowed;
+  }
+  
