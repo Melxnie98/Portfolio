@@ -38,6 +38,7 @@ export default function Index({ posts, globalData }) {
         <p>
           The following blog posts are little insights into work I have done over the past year or two, gotta show off my work some how!
         </p>
+        <br/>
         
        
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
