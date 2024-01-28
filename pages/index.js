@@ -6,6 +6,7 @@ import Layout, { GradientBackground } from '../components/Layout';
 import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
+import Head from 'next/head'
 
 import { useRouter } from 'next/router';
 import ScrollableHeader from '../components/ScrollableHeader.js';
@@ -18,8 +19,13 @@ export default function Index({ posts, globalData }) {
     router.push(path);
   }
   return (
+    
     <Layout>
-      
+      <Head>
+        
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Head>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
    
