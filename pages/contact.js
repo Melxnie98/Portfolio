@@ -7,6 +7,7 @@ import styles from '../components/ContactForm.module.css';
 import { useRouter } from 'next/router';
 import Layout, { GradientBackground } from '../components/Layout';
 import SEO from '../components/SEO';
+import { getGlobalData } from '../utils/global-data';
 
 const ContactPage = () => {
   const router = useRouter();
