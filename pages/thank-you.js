@@ -45,4 +45,9 @@ const ThanksPage = () => {
   );
 };
 
-export default ThanksPage;
+export function getStaticProps() {
+  const posts = getPosts();
+  const globalData = getGlobalData();
+
+  return { props: { posts, globalData } };
+}
