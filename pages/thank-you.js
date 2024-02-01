@@ -22,9 +22,6 @@ export default function Thanks({ posts, globalData }) {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
-      <Header>
-        <title>Thank You</title>
-      </Header>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
 
