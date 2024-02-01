@@ -9,11 +9,12 @@ import Footer from '../components/Footer';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
 
-const ThanksPage = () => {
-    const router = useRouter();
-    const navigateTo = (path) => {
-      router.push(path);
-    }
+export default function Thanks({ posts, globalData }) {
+  const router = useRouter();
+  
+  const navigateTo = (path) => {
+    router.push(path);
+  }
 
   return (
     <Layout>
