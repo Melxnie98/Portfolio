@@ -9,6 +9,7 @@ import Layout, { GradientBackground } from '../components/Layout';
 import SEO from '../components/SEO';
 import { getGlobalData } from '../utils/global-data';
 import { getPosts } from '../utils/mdx-utils';
+import Head from 'next/head'
 
 export default function ExperiancePage({ posts, globalData }) {
   const router = useRouter();
@@ -18,10 +19,13 @@ export default function ExperiancePage({ posts, globalData }) {
   }
   return (
     <Layout>
-      <Header>
-        <title>My experience</title>
+      <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Head>
+      <Header>
+        <title>My experience</title>
+        
       </Header>
 
       <main className="w-full">

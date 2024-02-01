@@ -9,6 +9,7 @@ import Layout, { GradientBackground } from '../components/Layout';
 import SEO from '../components/SEO';
 import { getGlobalData } from '../utils/global-data';
 import { getPosts } from '../utils/mdx-utils';
+import Head from 'next/head'
 
 export default function About({ posts, globalData }) {
     const router = useRouter();
@@ -18,6 +19,10 @@ export default function About({ posts, globalData }) {
     }
   return (
     <Layout>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      </Head>
       
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />

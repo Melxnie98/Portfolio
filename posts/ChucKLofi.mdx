@@ -1,0 +1,41 @@
+---
+title: LoFi music Generato
+description: Created using ChucK programming language & MiniAudicle IDE
+date: 17 Apr 2023
+---
+This was my first attempt at creating a complete chuck application, I later created one where the music could be paused and played/ different piano notes were tied to keyboard button presses,
+however I can't seem to find it, I will upload it when I do. 
+A link to the github repository: [GitHub](https://github.com/Melxnie98/LofiSoundGenerator).
+
+There are 8 chuck files and an audio folder which contains the sound files
+necessary to make the lofi sound and the drums.
+
+In order to begin the application, just open up Machine.ck, start a virtual machine 
+and click add shred, many of the files will not work individually, they have to be 
+used through the machine.
+
+The tempo for all of the application is controlled by the BPM class found in bpm.ck
+
+The Midi.ck file - controls the arrays of notes that go into the instrument files
+I chose (what I hope are correct key of cminor chords), after a lot of failing to read from 
+a piano and midi note list. I didn't add any other keys because this took me a very long time
+to do and other parts would have ended up suffering.
+
+The first sounds you will hear are generated in the lofiSoundFiles.ck file which loads 
+crackles and vinyl sounds that repeat for the whole app. The crackle is played at random 
+using a random number generator give the 'old, worn-down' sound. The other sound tries to 
+add the general 'tape saturation' feeling. These are both sporked 
+
+the next file heard is the Bass file uses SinOsc, it was the Mandolin bass STK but that seemed quite harsh. I played with a few reverberation classes, PRCRev, NRev and JCRev but JCRev was the only one
+that I could make fit the lofi feel so i went with that. 
+The bass2 Class is a subclass of bass with a slight variation in a few things to make the application sound less boring. I don't like it much so there's a large chance I will not leave it in.
+
+The drums are added next from drums.ck. The drums have their own class, within the class there are two functions called playDrums - function overloading, one which plays the snare and one which plays the kick, snare and hihat, they also get their notes from the Midi file 
+
+The piano is an STK Rhodey Piano. There are technically 4 pianos which play in sync to allow for a chord to be formed. The array is split into an array of arrays [[],[]] the first is filled by the midi note and the second by its piano number. The pianos are sent to DAC left , right and just normal DAC. One passes passes through a reverberation effect JCRev and another to => ResonZ
+
+The piano2 class is a subclass of piano, It just uses one of the pianos from the piano class and its own arrays.
+
+The next step is to add the user interaction section, I will incorporate the ternary operator and more if else statements in that section of the project. 
+
+Side note - I spell eighth wrong every single time I type it so for the whole app it is written as eigth because I spent so many hours searching for mistakes which were almost always that.
