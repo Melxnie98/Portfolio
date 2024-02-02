@@ -1,0 +1,74 @@
+---
+title: WebXR Classroom Scene with Animated Characters
+description: An interactive WebXR classroom scene with animated characters and spatial sound, using Three.js.
+date: 5 March 2023
+---
+Introduction
+This brief details the general functionality of the webXR application I created as part of my MSc. It outlines the steps involved in its development. It begins with a brief system overview, it then explores the design considerations, outlining any issues I saw arising, and explains the system architecture.
+
+## System Overview
+This application aims to create an interactive webXR scene based in a GLTF classroom. The main task is to build a basic virtual learning environment prototype. It should allow its user to interact with the application using a GUI such as dat.gui or lil-gui to control aspects of the scene such as playing and pausing the video or perhaps moving characters. The application should also display system performance statistics which will be implemented using the  Stats.js Library.
+
+## Goals and Guidelines
+The guidelines and aspirations for completing this application are as follows:
+ 
+## Assignment requirements:
+A virtual classroom - this can be sourced online as long as the source is referenced.
+2 independently animated characters which can also be sourced online same as above, armature is not required so will stick to simple Key-frame animation in the interest of time. Must include textures.
+Implement at least three light sources 
+Implement shadow casting from objects/characters on interaction with light sources .
+A video lesson using THREE.PlaneGeometry() and a video to textured on it - reference week 10 lab for this.
+Include Spatial Sound in the scene.
+Incorporate three 3D objects demonstrating 3 different vertex-fragment shader pairs.
+Print System Performance Statistics using stats.js.
+Include control widgets.
+
+## Development Methods
+
+My development method for the course of this application was my own take on the waterfall development method. I like the way the steps are layed out, I have used it as a reference for another project and It hasn’t caused problems as it is relatively easy to follow. Usually this method  demands one phase is finished before starting the next but I like to change things.
+
+
+## System Design & Architecture 
+
+**The renderer:** The renderer itself will be created with  THREE.WebGLRenderer. I will have to specify all kinds of fun sizes and colour encoding types. This will then be appended to the container which is going to be created in the html document and appended to the dom. This is complicated and I envision this is where most of my issues will stem from.
+**The camera:** The scene will need a camera so that we can see into it. Will likely choose perspective eg camera = new THREE.PerspectiveCamera(camera details), will hopefully not forget to set position and add to scene. 
+**Scene & characters:** Scene will be created with THREE.scene() The classroom and characters will be gLTF’s that I download from some lovely website(website to be decided) with free stuff. Need to import { GLTFLoader } and then use that loader to load them into the scene.
+**Textures:** Will be loaded using THREE.TextureLoader() which will load images from my files and map them to whichever mesh they are supposed to exist on. 
+**Sound:** For now I think the main source of sound will come from the video, I will then incorporate spatial sound by possibly attaching sound to the characters. The steps for this project will be create audio listener => add to camera => Make positional audio obj which uses the audio listener created earlier => load a sound like maybe footsteps or a  teacher voice => set as buffer for positional audio => create the obj for the audio source to come from (will probably be the characters). Will be referencing the lab in week 8.
+**Lighting:** Scene will need lights so that we can see stuff. Will likely use various built-in light source classes. Need to make sure the ones I pick support shadows. Dynamic light does cast shadows and may use ambient light to achieve a base level of lighting so it's not dark in some places and like a spotlight in others. I will pick the colour and intensity values based on what suits the scene as it is too early to see what will fit now. Done with function.
+**Shadows:** Will give the whole thing a more realistic look, making objects look 3D, as in the real world shadows are how we perceive depth. Will have to turn on the renderers  shadow settings while working with this and turn off while not as the calculations are computationally heavy. Needs shadow maps.
+**Video:** The video is first declared in the container in the html file. Then a video canvas will be created from the .js file in that container. Then its size and attributes will have to be specified and the texture will be loaded from the html file using - new THREE.VideoTexture(video). 
+**System Performance Statistics:** These will be provided using Stats.js, it will just monitor how everything is doing. Will likely be called by the animation function so that it’s only counting useful stuff.
+**Animation: Will likely be a function. The function will call the renderer and it will use  renderer.setAnimationLoop(animate); It will also have some info for playing the video. It will probably also be the place where the character keyframe info is stores 
+
+
+
+
+
+
+
+
+The GUI
+At the minute I envision that the GUI will be used to control volume, pausing and playing the video and possibly moving characters. I have not decided if I will use dat.gui or lil-gui yet, I would like to try out lil-gui if I have the time but I may start with dat.gui as I have used it before and I know-ish how to implement it, if i have time I will then try the other option. Will also try to implement a rewind fast forward feature if possible.
+
+The WebXR feature
+
+I will have to figure out how to properly use the WebXR extension which I have added to firefox. In the .js file this will be added using - import {VRButton}. This button will then have to create the button and notify the renderer when it’s been clicked. Need to remember to enable vr in the renderer.
+
+Programming the System 
+Best  Programming Practices
+Easy to edit: The code should be structured logically, clear and concise, with self contained entities where possible allowing for simple future additions/editing.
+Easy to read: Naming and logic should be easily understood by anybody (including future me). Should outline the thought process behind each action/object.
+Self documented: The code should be clear and should contain comments where appropriate.
+
+Object Oriented Programming 
+Three.js is a Javascript library which focuses on objects which contain information, details and actions. So following this I will firstly gather all of the objects and then work out how I want them to interact with each other.
+Classes: These are the blueprints for the other structures. They contain initial values and behaviours but will not have outputs until the constructor creates an object - ie an instance 
+Objects: These will be the instances of the classes, they can have their own data and also data from the class.
+Methods: These will be functions creates within a class for example =>  function createCamera() could exist in class SceneInitialise
+Attributes: these will be defined in the classes and will hold properties associated with the classes eg..itemSize : Integer -The length of vectors that are being stored in the array.
+Import Maps: I will hopefully use these to avoid name/scope issues and add to the general tidiness of the whole thing.
+
+
+
+[link](https://cs1.ucc.ie/~mkl1/CS6105/VLE/appFiles/).
