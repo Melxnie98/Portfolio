@@ -44,30 +44,26 @@ My development method for the course of this application was my own take on the 
 
 
 
+## The GUI
+The GUI will be used to control volume, pausing and playing the video and moving characters. I have not decided if I will use dat.gui or lil-gui yet, I would like to try out lil-gui if I have the time but I may start with dat.gui as I have used it before and I know-ish how to implement it, if i have time I will then try the other option. Will also try to implement a rewind fast forward feature if possible.
 
-
-
-
-The GUI
-At the minute I envision that the GUI will be used to control volume, pausing and playing the video and possibly moving characters. I have not decided if I will use dat.gui or lil-gui yet, I would like to try out lil-gui if I have the time but I may start with dat.gui as I have used it before and I know-ish how to implement it, if i have time I will then try the other option. Will also try to implement a rewind fast forward feature if possible.
-
-The WebXR feature
+## The WebXR feature
 
 I will have to figure out how to properly use the WebXR extension which I have added to firefox. In the .js file this will be added using - import {VRButton}. This button will then have to create the button and notify the renderer when it’s been clicked. Need to remember to enable vr in the renderer.
 
-Programming the System 
-Best  Programming Practices
+## Programming the System 
+### Best  Programming Practices
 Easy to edit: The code should be structured logically, clear and concise, with self contained entities where possible allowing for simple future additions/editing.
 Easy to read: Naming and logic should be easily understood by anybody (including future me). Should outline the thought process behind each action/object.
 Self documented: The code should be clear and should contain comments where appropriate.
 
-Object Oriented Programming 
+### Object Oriented Programming 
 Three.js is a Javascript library which focuses on objects which contain information, details and actions. So following this I will firstly gather all of the objects and then work out how I want them to interact with each other.
-Classes: These are the blueprints for the other structures. They contain initial values and behaviours but will not have outputs until the constructor creates an object - ie an instance 
-Objects: These will be the instances of the classes, they can have their own data and also data from the class.
-Methods: These will be functions creates within a class for example =>  function createCamera() could exist in class SceneInitialise
-Attributes: these will be defined in the classes and will hold properties associated with the classes eg..itemSize : Integer -The length of vectors that are being stored in the array.
-Import Maps: I will hopefully use these to avoid name/scope issues and add to the general tidiness of the whole thing.
+**Classes:** These are the blueprints for the other structures. They contain initial values and behaviours but will not have outputs until the constructor creates an object - ie an instance 
+**Objects:** These will be the instances of the classes, they can have their own data and also data from the class.
+**Methods:** These will be functions creates within a class for example =>  function createCamera() could exist in class SceneInitialise
+**Attributes:** these will be defined in the classes and will hold properties associated with the classes eg..itemSize : Integer -The length of vectors that are being stored in the array.
+**Import Maps:** I will hopefully use these to avoid name/scope issues and add to the general tidiness of the whole thing.
 
 
 
