@@ -29,8 +29,8 @@ export default function ExperiancePage({ posts, globalData }) {
       </Header>
 
       <main className="w-full">
-        <div className="text-3xl lg:text-5xl text-center mb-12">
-      <h1 >
+        
+      <h1 className="text-3xl lg:text-5xl text-center mb-12">
         ⭐Experience in the Field⭐
         </h1>
         <h2>Freelance Web Designer/Developer (2023 - 2024)</h2>
@@ -50,7 +50,7 @@ export default function ExperiancePage({ posts, globalData }) {
         <p>
           During my tenure at SAP Galway, as part of the iXP intern program, I offered customer support services to clients worldwide, with a focus on Spanish and English-speaking customers. I actively participated in SAP's Dev X Challenge, contributing to a team that won first prize for developing innovative solutions to enhance mobility in Dublin. My role involved resolving customer inquiries, providing technical assistance, and fostering positive customer relationships.
         </p>
-        </div>
+        
       </main>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
