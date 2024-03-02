@@ -40,6 +40,23 @@ export default function UniversityPage({ posts, globalData }) {
         <p>
             My academic pursuits extended beyond linguistics into the realms of sociology, philosophy, and new media studies, providing me with a holistic understanding of the interconnectedness of language, society, and technology. This interdisciplinary approach fueled my curiosity and laid the groundwork for my future endeavors in the realm of interactive media.
         </p>
+        <p>
+        Key Modules:
+        <ul>
+            <li>Translation of Ciro Alegría’s "Fábulas y Leyendas de Latinoamérica"</li>
+            <li>Japanese Language, Culture, and Society (Levels 1-3)</li>
+            <li>Spanish Language and Society (Levels 1-3)</li>
+            <li>Linguistics (Levels 1-6)</li>
+            <li>Celtic Civilization: Culture, Language, and Representations</li>
+            <li>Discourse Analysis for Arts, Humanities & Social Sciences</li>
+            <li>Socio-political Issues in the Hispanic World: Society, Culture, and Representation</li>
+            <li>Modern Trends in Hispanic Culture and the Arts</li>
+            <li>Indigenismo and Negrismo in Latin American Literature</li>
+            <li>Modern and Contemporary Spain</li>
+            <li>Media and Current Issues in the Spanish-speaking World</li>
+            <li>Women's Narratives of Resistance in the Hispanic World Spain, Europe, and Beyond</li>
+        </ul>
+        </p>
         <br></br>
         <h2>University College Cork</h2>
         <p>
@@ -48,6 +65,23 @@ export default function UniversityPage({ posts, globalData }) {
         <br></br>
         <p>
             Throughout my academic journey, I've honed my skills in 3D animation, audio application development, iOS app development, and web development, further solidifying my expertise in leveraging technology to create impactful solutions. These experiences have not only shaped my academic and professional trajectory but have also instilled in me a lifelong commitment to innovation and continuous learning.
+        </p>
+        <p>
+            Modules Studied:
+            <ul>
+                <li>Authoring</li>
+                <li>Web Development for Digital Media</li>
+                <li>Graphics for Interactive Media</li>
+                <li>Audio and Sound Engineering</li>
+                <li>Digital Video Capture and Packaging</li>
+                <li>3D Graphics and Modelling</li>
+                <li>Future and Emerging Interaction Technologies</li>
+                <li>Internet-based Applications</li>
+                <li>Digital Video Compression and Delivery</li>
+                <li>Human-Computer Interaction</li>
+                <li>Mobile Multimedia</li>
+                <li>Audio Processing</li>
+            </ul>
         </p>
       </main>
       <Footer copyrightText={globalData.footerText} />
