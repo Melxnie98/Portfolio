@@ -34,7 +34,7 @@ export default function ExperiancePage({ posts, globalData }) {
         ⭐Experience in the Field⭐
         </h1>
         <h2>Learning Designer & Web Developer (March 2024 - current)</h2>
-        <ul>
+        <ul style="list-style-type: circle">
           <li>
             Upgrading the university’s learning and teaching practices website from campuspress to wordpress, with a complete redesign based on UX review. In charge of all custom php code. I was also responsible for maintenance of custom code including documentation on github.
           </li>
