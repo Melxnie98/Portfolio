@@ -23,8 +23,8 @@ export default function ExperiancePage({ posts, globalData }) {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
-      <SEO title={globalData.name} description={globalData.blogTitle} />
-      <Header name={globalData.name} />
+      <SEO title={globalData.name + " - experience"} description={globalData.blogTitle} />
+      <Header name={globalData.name + " - experience"} />
      
 
       <main className="w-full">
