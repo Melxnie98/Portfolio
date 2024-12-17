@@ -23,4 +23,6 @@ body {
   }
 }
 
-ul{list-style-type: circle;}
+ul{
+  list-style-type: circle;
+}
