@@ -30,10 +30,8 @@ export default function ExperiancePage({ posts, globalData }) {
 
       <main className="w-full">
         
-      <h1 className="text-3xl lg:text-5xl text-center mb-12">
-        ⭐Experience in the Field⭐
-        </h1>
-        <h2>Learning Designer & Web Developer (March 2024 - current)</h2>
+      <h1 className="text-3xl lg:text-5xl text-center mb-12">Professional experience</h1>
+      <h2>Learning Designer & Web Developer (March 2024 - current)</h2>
         <ul>
           <li>
             Upgrading the university’s learning and teaching practices website from campuspress to wordpress, with a complete redesign based on UX review. In charge of all custom php code. I was also responsible for maintenance of custom code including documentation on github.
