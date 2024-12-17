@@ -6,11 +6,11 @@ export default function Header({ name }) {
     <header className="pt-20 pb-12">
       {/* Include the favicon link inside the Head component */}
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico"/>
       </Head>
       
       {/* The rest of your header content */}
-      <img src="/images/MLlogo." alt="Logo" />
+      <img src="/images/MLlogo.webp" alt="Logo" />
       <p className="text-2xl dark:text-white text-center">
         <Link href="/">
           <a>{name}</a>
