@@ -23,11 +23,11 @@ body {
   border-radius: 5%;
 }
 .max-w-2xl{
-  max-width: 60rem!important;
-  padding: 20px;
+  max-width: 65rem!important;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-top: 50px;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 5%;
+  background: rgba(255, 255, 255, 0.5);
 }
 @media (max-width: 600px) {
   main{
