@@ -9,9 +9,9 @@
     radial-gradient(at 36% 47%, #dda0dd 0, transparent 50%), /* Plum */
     radial-gradient(at 54% 29%, #dda0dd 0, transparent 28%), /* Plum */
     radial-gradient(at 45% 51%, #e6e6fa 0, transparent 53%), /* Light Lavender */
-    radial-gradient(at 73% 44%, #d8bfd8 0, transparent 54%), /* Thistle */
-    radial-gradient(at 24% 7%, #d8bfd8 0, transparent 40%), /* Thistle */
-    radial-gradient(at 76% 46%, #e6e6fa 0, transparent 50%); /* Light Lavender */
+    radial-gradient(at 73% 44%, #9370db 0, transparent 54%), /* Medium Purple */
+    radial-gradient(at 24% 7%, #483d8b 0, transparent 40%), /* Dark Slate Blue */
+    radial-gradient(at 76% 46%, #9370db 0, transparent 50%); /* Medium Purple */
   /* mix-blend-mode: normal; */
   max-height: 800px;
   height: 80vh;
@@ -33,9 +33,9 @@
     radial-gradient(at 36% 47%, #dda0dd 0, transparent 50%), /* Plum */
     radial-gradient(at 79% 45%, #dda0dd 0, transparent 28%), /* Plum */
     radial-gradient(at 66% 38%, #e6e6fa 0, transparent 53%), /* Light Lavender */
-    radial-gradient(at 89% 13%, #d8bfd8 0, transparent 54%), /* Thistle */
-    radial-gradient(at 24% 7%, #d8bfd8 0, transparent 40%), /* Thistle */
-    radial-gradient(at 76% 46%, #e6e6fa 0, transparent 50%); /* Light Lavender */
+    radial-gradient(at 89% 13%, #9370db 0, transparent 54%), /* Medium Purple */
+    radial-gradient(at 24% 7%, #483d8b 0, transparent 40%), /* Dark Slate Blue */
+    radial-gradient(at 76% 46%, #9370db 0, transparent 50%); /* Medium Purple */
   /* mix-blend-mode: normal; */
   height: 600px;
   max-width: 900px;
@@ -44,3 +44,4 @@
   filter: blur(44px);
   z-index: -10;
 }
+
