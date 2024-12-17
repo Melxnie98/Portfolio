@@ -33,8 +33,14 @@ export default function About({ posts, globalData }) {
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">About Me</h1>
           <p>
-            Hello, I'm Melanie, a creative and highly motivated professional with a passion for crafting innovative & accessible digital experiences. My academic journey includes earning an MSc in Interactive Media from University College Cork and a BA in Advanced Spanish & Linguistics with TESOL from the University of Limerick. I am a Certified Professional in Accessability Core Competencies having passed the IAAP CPACC exam in 2024, and also have a Google UX design certificate.
+            Hello, I'm Melanie, a creative and highly motivated professional with a passion for crafting innovative & accessible digital experiences. After finishing my MSc I moved from Ireland to New Zealand for a year, where I worked for the University of Auckland as a learning designer & web developer. I absolutely loved my time here, got to travel the whole country, spent many weekends camping, surfing and hiking and got to travel the beautifl south island in a campervan (would not reccomend doing this at winter as i did but it was amazing). Highlights include seeing fairy penguins, climbing Mt Cook, and basically every beach and waterfall i had the privillage of seeing.
           </p>
+          <p> 
+            My academic journey includes earning an MSc in Interactive Media from University College Cork and a BA in Advanced Spanish & Linguistics with TESOL from the University of Limerick. I am a Certified Professional in Accessability Core Competencies having passed the IAAP CPACC exam in 2024, and also have a Google UX design certificate.
+          </p>
+          <h2>Interests</h2>
+          <p>I am super interested in all things space related, while it's not something i have studied in any formal way I am prone to rabbit holes on things like dark energy and quantum entangleement, it is secretly a dream of mine to be able to work in this field some time in the future</p>
+          <p>I really love reading fantasy books, listening to music of all kinds, playing guitar(badly), animals, surfing, swimming, hiking and travelling</p>
         <h2>
           Skills
         </h2>
@@ -53,10 +59,7 @@ export default function About({ posts, globalData }) {
           Audio Application Development: Mixed and mastered tracks using Logic Pro and created a Lo-Fi music generator application using ChucK.
           </p>
         <p>
-          Why I'm Excited:
           I am thrilled about the opportunity to contribute to innovative projects, combining my technical expertise and creative thinking. My experiences in VR development, web design, and audio engineering have equipped me to deliver impactful digital experiences.
-
-          Let's embark on a journey to create captivating and memorable digital stories together!
         </p>
         </main>
       <Footer copyrightText={globalData.footerText} />
