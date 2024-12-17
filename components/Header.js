@@ -10,7 +10,7 @@ export default function Header({ name }) {
       </Head>
       
       {/* The rest of your header content */}
-      <img src="/images/MLlogo.webp" alt="Logo" />
+      <img src="/images/MLlogo.webp" alt="ML initials Logo" />
       <p className="text-2xl dark:text-white text-center">
         <Link href="/">
           <a>{name}</a>
