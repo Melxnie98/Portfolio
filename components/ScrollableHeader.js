@@ -56,7 +56,7 @@ const ScrollableHeader = ({ title }) => {
               <div className={styles.navItem} onClick={() => navigateTo('/experience')}>
                 Experience 
               </div>
-              <div className={styles.navItem} onClick={() => navigateTo('/University')}>
+              <div className={styles.navItem} onClick={() => navigateTo('/Education')}>
                 Education
               </div>
               <div className={styles.navItem} onClick={() => navigateTo('/contact')}>
@@ -71,7 +71,7 @@ const ScrollableHeader = ({ title }) => {
               <div onClick={() => navigateTo('/index')}>Home</div>
               <div onClick={() => navigateTo('/about')}>About</div>
               <div onClick={() => navigateTo('/experience')}>Experience</div>
-              <div onClick={() => navigateTo('/University')}>Education</div>
+              <div onClick={() => navigateTo('/Education')}>Education</div>
               <div onClick={() => navigateTo('/contact')}>Contact</div>
             </div>
           )}
