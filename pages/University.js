@@ -28,7 +28,7 @@ export default function UniversityPage({ posts, globalData }) {
         
       </Header>
 
-      <main className="w-full">
+      <main >
       <h1 className="text-3xl lg:text-5xl text-center mb-12">
         ⭐Education⭐
         </h1>
