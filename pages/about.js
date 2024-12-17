@@ -31,7 +31,7 @@ export default function About({ posts, globalData }) {
       </Header>
 
       <main className="w-full">
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">⭐About Me⭐</h1>
+        <h1 className="text-3xl lg:text-5xl text-center mb-12">About Me</h1>
           <p>
             Hello, I'm Melanie, a creative and highly motivated professional with a passion for crafting innovative & accessible digital experiences. My academic journey includes earning an MSc in Interactive Media from University College Cork and a BA in Advanced Spanish & Linguistics with TESOL from the University of Limerick. I am a Certified Professional in Accessability Core Competencies having passed the IAAP CPACC exam in 2024, and also have a Google UX design certificate.
           </p>
@@ -39,14 +39,14 @@ export default function About({ posts, globalData }) {
           Skills
         </h2>
         <p>
-          My diverse skill set encompasses a range of programming languages such as JavaScript, CSS, HTML, C#, PHP, Swift, Java, ChucK, and Python. I am proficient in utilizing development tools like Unity, Pro Tools, LogicPro, FinalCut, and XCode. Additionally, my expertise extends to Human-Computer Interaction (HCI), Blender, and various languages including Spanish, Irish, Japanese, and English.
+          My diverse skill set encompasses a range of programming languages such as JavaScript, CSS, HTML, C#, PHP, Swift, Java, ChucK, and Python. I am proficient in utilising development tools like Unity, Pro Tools, LogicPro, FinalCut, and XCode. Additionally, my expertise extends to Human-Computer Interaction (HCI), Blender, and various languages including Spanish, Irish, Japanese, and English.
         </p>
         
         <h2>
           Projects:
         </h2>
         <p>
-          Masters Dissertation: Developed a VR tool for empathy training in student intellectual disability nurses, incorporating 360 video, ambisonic sound, and haptic responses delivered through Unity and C# for Android.
+          <a href="https://melanieleonard.netlify.app/posts/thesis">Masters Dissertation:</a> Developed a VR tool for empathy training in student intellectual disability nurses, incorporating 360 video, ambisonic sound, and haptic responses delivered through Unity and C# for Android.
 
           3D Animation: Modeled and created short animations using Blender & Three.js with WebXR.
 
