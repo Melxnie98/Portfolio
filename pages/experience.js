@@ -27,7 +27,7 @@ export default function ExperiancePage({ posts, globalData }) {
       </Head>
       
       <Header>
-        <title>Contact me</title>
+        <title>Professional experience</title>
       </Header>
      
 
