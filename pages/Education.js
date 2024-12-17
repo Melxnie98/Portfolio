@@ -22,7 +22,7 @@ export default function UniversityPage({ posts, globalData }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Melanie Leonard: Education</title>
+        <title>Melanie Leonard - Education</title>
         <SEO title={globalData.name + " - Education"} description={globalData.blogTitle} />
       </Head>
       <Header>

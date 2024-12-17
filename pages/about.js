@@ -22,10 +22,13 @@ export default function About({ posts, globalData }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Melanie Leonard - about</title>
+        <SEO title={globalData.name + " - about"} description={globalData.blogTitle} />
       </Head>
       
-      <SEO title={globalData.name} description={globalData.blogTitle} />
-      <Header name={globalData.name} />
+      <Header>
+        <title>About me</title>
+      </Header>
 
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">⭐About Me⭐</h1>

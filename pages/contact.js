@@ -22,7 +22,7 @@ export default function ContactPage({ posts, globalData }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Melanie Leonard: Contact</title>
+        <title>Melanie Leonard - Contact</title>
         <SEO title={globalData.name + " - Contact"} description={globalData.blogTitle} />
       </Head>
       <Header>
