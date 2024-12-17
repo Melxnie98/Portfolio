@@ -28,13 +28,10 @@ export default function About({ posts, globalData }) {
       <Header name={globalData.name} />
 
       <main className="w-full">
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">
-        ⭐About Me⭐
-        </h1>
-        <p>
-          Hello, I'm Melanie, a creative and highly motivated professional with a passion for crafting innovative & accessible digital experiences. My academic journey includes earning an MSc in Interactive Media from University College Cork and a BA in Advanced Spanish & Linguistics with TESOL from the University of Limerick. I am a Certified Professional in Accessability Core Competencies having passed the IAAP CPACC exam in 2024, and also have a Google UX design certificate.
-        </p>
-        
+        <h1 className="text-3xl lg:text-5xl text-center mb-12">⭐About Me⭐</h1>
+          <p>
+            Hello, I'm Melanie, a creative and highly motivated professional with a passion for crafting innovative & accessible digital experiences. My academic journey includes earning an MSc in Interactive Media from University College Cork and a BA in Advanced Spanish & Linguistics with TESOL from the University of Limerick. I am a Certified Professional in Accessability Core Competencies having passed the IAAP CPACC exam in 2024, and also have a Google UX design certificate.
+          </p>
         <h2>
           Skills
         </h2>

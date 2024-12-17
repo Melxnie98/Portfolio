@@ -33,10 +33,9 @@ export default function Index({ posts, globalData }) {
           Welcome to my blog !
         </h1>
         <p>
-          Hello, I'm Melanie, a creative and highly motivated graduate with a passion for crafting innovative digital experiences. My academic journey includes earning an MSc in Interactive Media from University College Cork and a BA in Advanced Spanish & Linguistics with TESOL from the University of Limerick.
-        </p>
+          Hello, I'm Melanie, a creative and highly motivated professional with a passion for crafting innovative digital experiences. This is a next.js blog, created using netlify alongside github, I don't update it too regularly, it's kind of a dump onece evry 6 months type vibe but hoping to keep it more up to date in the future so bare with me while I catch up on what I have been up to!
         <p>
-          The following blog posts are little insights into work I have done over the past year or two, gotta show off my work some how!
+          Each of the posts below is little insights into work I have done over the last while, gif you have any questions please feel free to get in touch.
         </p>
         <br/>
         
