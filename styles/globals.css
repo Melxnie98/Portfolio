@@ -18,7 +18,7 @@ body {
   font-family: var(--font-secondary);
 }
 .contentBlock{
-  background-color: #e6e6fa;
+  background-color: #f8f8ff;
   padding: 20px;
   border-radius: 20%;
 }
