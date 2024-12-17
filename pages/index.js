@@ -28,20 +28,22 @@ export default function Index({ posts, globalData }) {
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
    
-      <main className="w-full contentBlock">
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          Hello there
-        </h1>
-        <p>
-          Hello, I'm Melanie, a creative and highly motivated professional with a passion for crafting innovative digital experiences. 
-        </p>
-        <p>
-          This is a next.js blog, created using netlify alongside github, I don't update it too regularly, it's kind of a dump onece every 6 months type vibe but hoping to keep it more up to date in the future so bare with me while I catch up on what I have been up to!
-        </p>
-        <p>
-          Each of the posts below is little insights into work I have done over the last while, gif you have any questions please feel free to get in touch.
-        </p>
-        <br/>
+      <main className="w-full">
+        <div className="contentBlock">
+          <h1 className="text-3xl lg:text-5xl text-center mb-12">
+            Hello there
+          </h1>
+          <p>
+            Hello, I'm Melanie, a creative and highly motivated professional with a passion for crafting innovative digital experiences. 
+          </p>
+          <p>
+            This is a next.js blog, created using netlify alongside github, I don't update it too regularly, it's kind of a dump onece every 6 months type vibe but hoping to keep it more up to date in the future so bare with me while I catch up on what I have been up to!
+          </p>
+          <p>
+            Each of the posts below is little insights into work I have done over the last while, gif you have any questions please feel free to get in touch.
+          </p>
+          <br/>
+        </div>
         
        
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
