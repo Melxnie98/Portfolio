@@ -22,15 +22,14 @@ export default function ContactPage({ posts, globalData }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Contact me</title>
       </Head>
       <Header>
         <title>Contact me</title>
       </Header>
 
       <main className="w-full">
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          ⭐Contact me ⭐
-        </h1>
+        <h1 className="text-3xl lg:text-5xl text-center mb-12">Contact me</h1>
         
         <ContactForm  />
         
