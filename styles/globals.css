@@ -19,7 +19,8 @@ body {
 }
 .contentBlock{
   background-color: #e6e6fa;
-  padding: 10px;
+  padding: 20px;
+  border-radius: 20%;
 }
 @media (max-width: 600px) {
   main{
