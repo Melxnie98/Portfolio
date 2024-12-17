@@ -29,7 +29,7 @@ export default function Index({ posts, globalData }) {
       <Header name={globalData.name} />
    
       <main className="w-full">
-        <h1 className="text-3xl lg:text-5xl text-center mb-12" style="background-color: #e6e6fa">
+        <h1 className="text-3xl lg:text-5xl text-center mb-12">
           Welcome to my blog !
         </h1>
         <p>
