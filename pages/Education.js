@@ -32,33 +32,35 @@ export default function UniversityPage({ posts, globalData }) {
 
       <main className="w-full">
       <h1 className="text-3xl lg:text-5xl text-center mb-12">
-        ⭐Education⭐
+        Education
         </h1>
-        <h2>University College Cork</h2>
-        <p>
-            Building upon this foundation, I pursued a Master's degree in Interactive Media, where I delved into the cutting-edge realms of digital design and technology. Here, I had the opportunity to engage in a diverse range of projects that pushed the boundaries of innovation and creativity. One of the highlights of my master's program was my thesis project, which involved the development, implementation, and evaluation of a groundbreaking VR tool for empathy training in student Intellectual Disability Nurses. This project incorporated elements such as 360-degree video, ambisonic sound, and haptic feedback, providing a immersive and impactful learning experience. The success of this project not only demonstrated my technical proficiency but also underscored my passion for using technology for social good.
-        </p>
-        <br></br>
-        <p>
-            Throughout my academic journey, I've honed my skills in 3D animation, audio application development, iOS app development, and web development, further solidifying my expertise in leveraging technology to create impactful solutions. These experiences have not only shaped my academic and professional trajectory but have also instilled in me a lifelong commitment to innovation and continuous learning.
-        </p>
-        <p>
-            Modules Studied:
-            <ul class="custom-bullets">
-                <li>Authoring</li>
-                <li>Web Development for Digital Media</li>
-                <li>Graphics for Interactive Media</li>
-                <li>Audio and Sound Engineering</li>
-                <li>Digital Video Capture and Packaging</li>
-                <li>3D Graphics and Modelling</li>
-                <li>Future and Emerging Interaction Technologies</li>
-                <li>Internet-based Applications</li>
-                <li>Digital Video Compression and Delivery</li>
-                <li>Human-Computer Interaction</li>
-                <li>Mobile Multimedia</li>
-                <li>Audio Processing</li>
-            </ul>
-        </p>
+        <div class="contentBlock">
+          <h2>University College Cork</h2>
+          <p>
+              Building upon this foundation, I pursued a Master's degree in Interactive Media, where I delved into the cutting-edge realms of digital design and technology. Here, I had the opportunity to engage in a diverse range of projects that pushed the boundaries of innovation and creativity. One of the highlights of my master's program was my thesis project, which involved the development, implementation, and evaluation of a groundbreaking VR tool for empathy training in student Intellectual Disability Nurses. This project incorporated elements such as 360-degree video, ambisonic sound, and haptic feedback, providing a immersive and impactful learning experience. The success of this project not only demonstrated my technical proficiency but also underscored my passion for using technology for social good.
+          </p>
+          <br></br>
+          <p>
+              Throughout my academic journey, I've honed my skills in 3D animation, audio application development, iOS app development, and web development, further solidifying my expertise in leveraging technology to create impactful solutions. These experiences have not only shaped my academic and professional trajectory but have also instilled in me a lifelong commitment to innovation and continuous learning.
+          </p>
+          <p>
+              Modules Studied:
+              <ul class="custom-bullets">
+                  <li>Authoring</li>
+                  <li>Web Development for Digital Media</li>
+                  <li>Graphics for Interactive Media</li>
+                  <li>Audio and Sound Engineering</li>
+                  <li>Digital Video Capture and Packaging</li>
+                  <li>3D Graphics and Modelling</li>
+                  <li>Future and Emerging Interaction Technologies</li>
+                  <li>Internet-based Applications</li>
+                  <li>Digital Video Compression and Delivery</li>
+                  <li>Human-Computer Interaction</li>
+                  <li>Mobile Multimedia</li>
+                  <li>Audio Processing</li>
+              </ul>
+          </p>
+        </div>
         <div class="contentBlock">
         <h2>University of Limerick</h2>
         <p>

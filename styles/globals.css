@@ -21,6 +21,7 @@ body {
   background-color: #f8f8ff;
   padding: 20px;
   border-radius: 5%;
+  margin-bottom: 50px;
 }
 .custom-bullets {
   list-style-type: circle; /* Changes bullet to a square */
