@@ -34,10 +34,11 @@ export default function UniversityPage({ posts, globalData }) {
       <h1 className="text-3xl lg:text-5xl text-center mb-12">
         Education
         </h1>
+        <p> My educational journey has been a rich tapestry of linguistic exploration, cultural immersion, and technological innovation. My time at UCC and UL has largely shaped the direction of my career and I am thoroughly gratefull to have had the experiance to study and later work as a GTA in UCC. for some more in depth information on the specifics of my university education keep reading, if you don't really care thats ok too!</p>
         <div class="contentBlock">
           <h2>University College Cork</h2>
           <p>
-              Building upon this foundation, I pursued a Master's degree in Interactive Media, where I delved into the cutting-edge realms of digital design and technology. Here, I had the opportunity to engage in a diverse range of projects that pushed the boundaries of innovation and creativity. One of the highlights of my master's program was my thesis project, which involved the development, implementation, and evaluation of a groundbreaking VR tool for empathy training in student Intellectual Disability Nurses. This project incorporated elements such as 360-degree video, ambisonic sound, and haptic feedback, providing a immersive and impactful learning experience. The success of this project not only demonstrated my technical proficiency but also underscored my passion for using technology for social good.
+              In 2024 I received a first class honours Master of (computer) Science degree in Interactive Media, where I delved into the cutting-edge realms of digital design and technology. Here, I had the opportunity to engage in a diverse range of projects that pushed the boundaries of innovation and creativity. One of the highlights of my master's program was my thesis project, which involved the development, implementation, and evaluation of a groundbreaking VR tool for empathy training in student Intellectual Disability Nurses. This project incorporated elements such as 360-degree video, ambisonic sound, and haptic feedback, providing a immersive and impactful learning experience. The success of this project not only demonstrated my technical proficiency but also underscored my passion for using technology for social good.
           </p>
           <br></br>
           <p>
@@ -64,7 +65,7 @@ export default function UniversityPage({ posts, globalData }) {
         <div class="contentBlock">
         <h2>University of Limerick</h2>
         <p>
-            My educational journey has been a rich tapestry of linguistic exploration, cultural immersion, and technological innovation. I completed my Bachelor of Arts with a focus on languages and linguistics, specializing in Teaching English to Speakers of Other Languages (TESOL) while also delving into Spanish and Japanese language and culture. During my undergraduate studies, I undertook a significant translation project, translating Ciro Alegría’s "Fábulas y Leyendas de Latinoamérica" into English, which deepened my appreciation for language and literature. This project not only sharpened my language skills but also instilled in me a profound understanding of cross-cultural communication and storytelling.
+          In 2022 I completed my Bachelor of Arts with a focus on languages and linguistics, specializing in Teaching English to Speakers of Other Languages (TESOL) while also delving into Spanish and Japanese language and culture. During my undergraduate studies, I undertook a significant translation project, translating Ciro Alegría’s "Fábulas y Leyendas de Latinoamérica" into English, which deepened my appreciation for language and literature. This project not only sharpened my language skills but also instilled in me a profound understanding of cross-cultural communication and storytelling.
         </p>
         <br></br>
         <p>
