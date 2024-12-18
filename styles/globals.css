@@ -22,7 +22,8 @@ body {
   color: #333; /* Sets the text color */
   padding: 20px;
   border-radius: 5%;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 .custom-bullets {
   list-style-type: circle; /* Changes bullet to a square */
