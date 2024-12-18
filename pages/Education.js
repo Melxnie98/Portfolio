@@ -44,7 +44,7 @@ export default function UniversityPage({ posts, globalData }) {
         </p>
         <p>
             Modules Studied:
-            <ul>
+            <ul class="custom-bullets">
                 <li>Authoring</li>
                 <li>Web Development for Digital Media</li>
                 <li>Graphics for Interactive Media</li>
@@ -69,7 +69,7 @@ export default function UniversityPage({ posts, globalData }) {
             My academic pursuits extended beyond linguistics into the realms of sociology, philosophy, and new media studies, providing me with a holistic understanding of the interconnectedness of language, society, and technology. This interdisciplinary approach fueled my curiosity and laid the groundwork for my future endeavors in the realm of interactive media.
         </p>
         <p> Key Modules:</p>
-        <ul>
+        <ul class="custom-bullets">
             <li>Translation of Ciro Alegría’s "Fábulas y Leyendas de Latinoamérica"</li>
             <li>Japanese Language, Culture, and Society (Levels 1-3)</li>
             <li>Spanish Language and Society (Levels 1-3)</li>
