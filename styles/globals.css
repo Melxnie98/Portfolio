@@ -28,7 +28,7 @@ body {
 /* Media query for screens with a max width of 600px */
 @media (max-width: 600px) {
   .contentBlock {
-    padding: 10px; /* Reduce padding on smaller screens */
+    padding: 5px; /* Reduce padding on smaller screens */
     margin-top: 15px; /* Adjust top margin */
     margin-bottom: 15px; /* Adjust bottom margin */
   }
@@ -51,8 +51,8 @@ body {
 @media (max-width: 600px) {
   main{
     margin-top: 30px;  
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
