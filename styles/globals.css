@@ -25,6 +25,14 @@ body {
   margin-bottom: 25px;
   margin-top: 25px;
 }
+/* Media query for screens with a max width of 768px */
+@media (max-width: 768px) {
+  .contentBlock {
+    padding: 10px; /* Reduce padding on smaller screens */
+    margin-top: 15px; /* Adjust top margin */
+    margin-bottom: 15px; /* Adjust bottom margin */
+  }
+}
 .custom-bullets {
   list-style-type: circle; /* Changes bullet to a square */
   list-style-position: inside; /* Moves the bullet inside the list item */
@@ -43,6 +51,8 @@ body {
 @media (max-width: 600px) {
   main{
     margin-top: 30px;  
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
