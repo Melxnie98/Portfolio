@@ -29,8 +29,7 @@ body {
 @media (max-width: 600px) {
   .contentBlock {
     padding: 5px; /* Reduce padding on smaller screens */
-    margin-top: 15px; /* Adjust top margin */
-    margin-bottom: 15px; /* Adjust bottom margin */
+    margin: 15px; 
   }
 }
 .custom-bullets {

@@ -30,7 +30,7 @@ export default function Index({ posts, globalData }) {
    
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          Hello there
+          Welcome!
         </h1>
         <p>
           Hello, I'm Melanie, a creative and highly motivated professional with a passion for crafting innovative digital experiences. 
