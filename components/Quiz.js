@@ -1,6 +1,6 @@
 // src/components/Quiz.js
 import React, { useState } from 'react';
-import './Quiz.css';  // Import CSS styles
+import styles from './Quiz.module.css';
 
 const Quiz = () => {
     const [feedback, setFeedback] = useState("");
