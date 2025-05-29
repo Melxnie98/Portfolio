@@ -37,7 +37,7 @@ export default function UniversityPage({ posts, globalData }) {
         Education
         </h1>
         
-        <Quiz/>, document.getElementById('root'));
+        <Quiz/>
         <p> My educational journey has been a rich tapestry of linguistic exploration, cultural immersion, and technological innovation. My time at UCC and UL has largely shaped the direction of my career and I am thoroughly gratefull to have had the experiance to study and later work as a GTA in UCC. for some more in depth information on the specifics of my university education keep reading, if you don't really care thats ok too!</p>
         <div class="contentBlock">
           <h2>University College Cork</h2>
