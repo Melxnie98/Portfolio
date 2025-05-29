@@ -1,8 +1,7 @@
 /* public/styles.css */
-body {
+.main-body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #f4f4f9;
 }
 
 .quiz-container {
