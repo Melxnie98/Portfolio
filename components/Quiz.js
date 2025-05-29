@@ -1,6 +1,6 @@
 // src/components/Quiz.js
 import React, { useState } from 'react';
-import styles from './Quiz.module.css';
+import styles from './Quiz.module.css';  // Import the CSS Module
 
 const Quiz = () => {
     const [feedback, setFeedback] = useState("");
@@ -20,10 +20,10 @@ const Quiz = () => {
     };
 
     return (
-        <div className="quiz-container">
+        <div className={styles['quiz-container']}>
             <h1>Quiz Time!</h1>
-            <div className="question">What is the capital of France?</div>
-            <div className="options">
+            <div className={styles.question}>What is the capital of France?</div>
+            <div className={styles.options}>
                 <label>
                     <input 
                         type="radio" 
@@ -62,9 +62,9 @@ const Quiz = () => {
                 </label><br />
             </div>
 
-            <button className="button" onClick={handleSubmit}>Submit Answer</button>
+            <button className={styles.button} onClick={handleSubmit}>Submit Answer</button>
 
-            <div className={`feedback ${feedback.includes('Correct') ? 'correct' : 'incorrect'}`}>
+            <div className={`${styles.feedback} ${feedback.includes('Correct') ? styles.correct : styles.incorrect}`}>
                 {feedback}
             </div>
         </div>
@@ -72,3 +72,4 @@ const Quiz = () => {
 };
 
 export default Quiz;
+
