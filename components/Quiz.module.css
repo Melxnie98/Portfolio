@@ -22,7 +22,9 @@
     font-size: 16px;
     font-weight: bold;
     color: #333;
-    display: none;
+    margin-top: 20px;  /* Add space above to separate from button */
+    display: block;    /* Ensure it's displayed */
+    text-align: center; /* Center the feedback message */
 }
 
 .correct {
