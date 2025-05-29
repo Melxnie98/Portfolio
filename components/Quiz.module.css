@@ -1,0 +1,39 @@
+/* public/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+.quiz-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.options {
+    margin-bottom: 20px;
+}
+
+.feedback {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    display: none;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
