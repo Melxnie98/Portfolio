@@ -62,7 +62,7 @@ const Quiz = () => {
                 </label><br />
             </div>
 
-            <button onClick={handleSubmit}>Submit Answer</button>
+            <button className="button" onClick={handleSubmit}>Submit Answer</button>
 
             <div className={`feedback ${feedback.includes('Correct') ? 'correct' : 'incorrect'}`}>
                 {feedback}
