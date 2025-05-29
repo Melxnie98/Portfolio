@@ -1,8 +1,4 @@
-/* public/styles.css */
-.main-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-}
+/* Quiz.module.css */
 
 .quiz-container {
     max-width: 400px;
@@ -11,7 +7,6 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
 }
 
 .question {
@@ -37,8 +32,9 @@
 .incorrect {
     color: red;
 }
-/* Enhanced Submit Button */
-button {
+
+/* Enhanced Button */
+.button {
     background: linear-gradient(135deg, #6e7dff, #4c5cfa);
     color: white;
     border: none;
@@ -52,12 +48,12 @@ button {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-button:hover {
+.button:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-button:active {
+.button:active {
     transform: translateY(2px);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
