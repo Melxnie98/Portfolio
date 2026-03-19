@@ -32,7 +32,7 @@ export default function AccessPage({ posts, globalData }) {
      
 
       <main className="w-full">
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">Professional experience</h1>
+        <h1 className="text-3xl lg:text-5xl text-center mb-12">how many probs can i make yippeeee</h1>
         <h2>Muahahahah</h2>
           
            
