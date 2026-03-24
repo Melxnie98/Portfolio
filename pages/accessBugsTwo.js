@@ -33,7 +33,9 @@ export default function AccessPage({ posts, globalData }) {
 
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">how many probs can i make yippeeee</h1>
-        <h3>Muahahahah</h3>
+        <h3>This should be a h2 </h3>
+        <p>the below image has no alt text</p>
+        <img src="https://www.katebackdrop.com/cdn/shop/files/186c369d720a6a3ee241c955d9f4ca46.jpg?v=1736844070&width=700" ></img>
           
            
         
