@@ -40,7 +40,7 @@ const ScrollableHeader = ({ title }) => {
         <img src="/images/MLlogo.webp" alt="initials M L - Logo" className={styles.logo} onClick={() => navigateTo('/index')} />
           {/* Show burger icon only on small screens */}
           {isSmallScreen && (
-             <img src="/images/menu.svg" className={styles.burgerIcon} onClick={toggleMenu}></img>
+             <img src="/images/menu.svg" alt="expand navigation menu" className={styles.burgerIcon} onClick={toggleMenu}></img>
             
           )}
 
