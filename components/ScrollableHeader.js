@@ -70,7 +70,7 @@ const ScrollableHeader = ({ title }) => {
               </div>
               <div className={styles.navItem} onClick={() => navigateTo('/accessBugsThree')}>
                 AccessBugsThree
-              </div>
+              </div>*/}
             </>
           )}
 
