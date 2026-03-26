@@ -33,64 +33,64 @@ const ScrollableHeader = ({ title }) => {
   }, []);
 
   return (
-    <header className={styles.scrollableHeader}>
-      <div className={styles.navigation}>
+  <header className={styles.scrollableHeader}>
+    <div className={styles.navigation}>
       <div className={styles.headerContent}>
-        
-        <img src="/images/MLlogo.webp" alt="initials M L - Logo" className={styles.logo} onClick={() => navigateTo('/index')} />
-          {/* Show burger icon only on small screens */}
-          {isSmallScreen && (
-             <img src="/images/menu.svg" alt="expand navigation menu" className={styles.burgerIcon} onClick={toggleMenu}></img>
-            
-          )}
 
-          {/* Show regular navigation items on larger screens */}
+        {/* Logo should be a link */}
+        <a href="/index" onClick={() => navigateTo('/index')}>
+          <img
+            src="/images/MLlogo.webp"
+            alt="ML logo"
+            className={styles.logo}
+          />
+        </a>
+
+        {/* Burger button */}
+        {isSmallScreen && (
+          <button
+            className={styles.burgerIcon}
+            onClick={toggleMenu}
+            aria-expanded={isMenuOpen}
+            aria-controls="main-menu"
+          >
+            <img src="/images/menu.svg" alt="" />
+            <span className="sr-only">Toggle navigation menu</span>
+          </button>
+        )}
+
+        {/* Navigation */}
+        <nav aria-label="Main navigation">
           {!isSmallScreen && (
-            <>
-              <div className={styles.navItem} onClick={() => navigateTo('/index')}>
-                Home
-              </div>
-              <div className={styles.navItem} onClick={() => navigateTo('/about')}>
-                About 
-              </div>
-              <div className={styles.navItem} onClick={() => navigateTo('/experience')}>
-                Experience 
-              </div>
-              <div className={styles.navItem} onClick={() => navigateTo('/Education')}>
-                Education
-              </div>
-              <div className={styles.navItem} onClick={() => navigateTo('/contact')}>
-                Contact 
-              </div>
-              <div className={styles.navItem} onClick={() => navigateTo('/accessBugs')}>
-                AccessBugs 
-              </div>
-              <div className={styles.navItem} onClick={() => navigateTo('/accessBugsTwo')}>
-                AccessBugsTwo
-              </div>
-              <div className={styles.navItem} onClick={() => navigateTo('/accessBugsThree')}>
-                AccessBugsThree
-              </div>
-            </>
+            <ul className={styles.navList}>
+              <li><a href="/index">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/experience">Experience</a></li>
+              <li><a href="/Education">Education</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/accessBugs">AccessBugs</a></li>
+              <li><a href="/accessBugsTwo">AccessBugsTwo</a></li>
+              <li><a href="/accessBugsThree">AccessBugsThree</a></li>
+            </ul>
           )}
 
           {isMenuOpen && (
-            <div className={styles.dropdownMenu}>
-              {/* Dropdown menu items go here */}
-              <div onClick={() => navigateTo('/index')}>Home</div>
-              <div onClick={() => navigateTo('/about')}>About</div>
-              <div onClick={() => navigateTo('/experience')}>Experience</div>
-              <div onClick={() => navigateTo('/Education')}>Education</div>
-              <div onClick={() => navigateTo('/contact')}>Contact</div>
-              <div onClick={() => navigateTo('/accessBugs')}>accessBugs</div>
-              <div onClick={() => navigateTo('/accessBugsTwo')}>accessBugsTwo</div>
-              <div onClick={() => navigateTo('/accessBugsThree')}>accessBugsThree</div>
-            </div>
+            <ul id="main-menu" className={styles.dropdownMenu}>
+              <li><a href="/index">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/experience">Experience</a></li>
+              <li><a href="/Education">Education</a></li>
+              <li><a href="/contact">Contact</a></li>
+              <li><a href="/accessBugs">AccessBugs</a></li>
+              <li><a href="/accessBugsTwo">AccessBugsTwo</a></li>
+              <li><a href="/accessBugsThree">AccessBugsThree</a></li>
+            </ul>
           )}
-        </div>
+        </nav>
+
       </div>
-    </header>
-  );
-};
+    </div>
+  </header>
+);
 
 export default ScrollableHeader;
