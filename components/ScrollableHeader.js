@@ -25,9 +25,7 @@ const ScrollableHeader = ({ title }) => {
     window.addEventListener('resize', handleResize);
     handleResize();
 
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   return (
@@ -58,27 +56,27 @@ const ScrollableHeader = ({ title }) => {
           <nav aria-label="Main navigation">
             {!isSmallScreen && (
               <ul className={styles.navList}>
-                <li><button className={styles.navItem} onClick={() => navigateTo('/index')}>Home</button></li>
-                <li><button className={styles.navItem} onClick={() => navigateTo('/about')}>About</button></li>
-                <li><button className={styles.navItem} onClick={() => navigateTo('/experience')}>Experience</button></li>
-                <li><button className={styles.navItem} onClick={() => navigateTo('/Education')}>Education</button></li>
-                <li><button className={styles.navItem} onClick={() => navigateTo('/contact')}>Contact</button></li>
-                <li><button className={styles.navItem} onClick={() => navigateTo('/accessBugs')}>AccessBugs</button></li>
-                <li><button className={styles.navItem} onClick={() => navigateTo('/accessBugsTwo')}>AccessBugsTwo</button></li>
-                <li><button className={styles.navItem} onClick={() => navigateTo('/accessBugsThree')}>AccessBugsThree</button></li>
+                <li><a href="/index" className={styles.navItem}>Home</a></li>
+                <li><a href="/about" className={styles.navItem}>About</a></li>
+                <li><a href="/experience" className={styles.navItem}>Experience</a></li>
+                <li><a href="/Education" className={styles.navItem}>Education</a></li>
+                <li><a href="/contact" className={styles.navItem}>Contact</a></li>
+                <li><a href="/accessBugs" className={styles.navItem}>AccessBugs</a></li>
+                <li><a href="/accessBugsTwo" className={styles.navItem}>AccessBugsTwo</a></li>
+                <li><a href="/accessBugsThree" className={styles.navItem}>AccessBugsThree</a></li>
               </ul>
             )}
 
             {isMenuOpen && (
               <ul id="main-menu" className={styles.dropdownMenu}>
-                <li><button onClick={() => navigateTo('/index')}>Home</button></li>
-                <li><button onClick={() => navigateTo('/about')}>About</button></li>
-                <li><button onClick={() => navigateTo('/experience')}>Experience</button></li>
-                <li><button onClick={() => navigateTo('/Education')}>Education</button></li>
-                <li><button onClick={() => navigateTo('/contact')}>Contact</button></li>
-                <li><button onClick={() => navigateTo('/accessBugs')}>accessBugs</button></li>
-                <li><button onClick={() => navigateTo('/accessBugsTwo')}>accessBugsTwo</button></li>
-                <li><button onClick={() => navigateTo('/accessBugsThree')}>accessBugsThree</button></li>
+                <li><a href="/index" className={styles.navItem}>Home</a></li>
+                <li><a href="/about" className={styles.navItem}>About</a></li>
+                <li><a href="/experience" className={styles.navItem}>Experience</a></li>
+                <li><a href="/Education" className={styles.navItem}>Education</a></li>
+                <li><a href="/contact" className={styles.navItem}>Contact</a></li>
+                <li><a href="/accessBugs" className={styles.navItem}>accessBugs</a></li>
+                <li><a href="/accessBugsTwo" className={styles.navItem}>accessBugsTwo</a></li>
+                <li><a href="/accessBugsThree" className={styles.navItem}>accessBugsThree</a></li>
               </ul>
             )}
           </nav>
