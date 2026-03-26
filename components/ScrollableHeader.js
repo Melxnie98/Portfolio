@@ -1,7 +1,5 @@
 // components/ScrollableHeader.js
 
-'use client'; // ✅ REQUIRED if you're in /app directory
-
 import { useRouter } from 'next/navigation'; // ✅ FIXED
 import React, { useState, useEffect } from 'react';
 import styles from './ScrollableHeader.module.css';
