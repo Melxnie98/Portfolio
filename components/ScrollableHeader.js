@@ -61,7 +61,6 @@ const ScrollableHeader = ({ title }) => {
                 <li><a href="/experience" className={styles.navItem}>Experience</a></li>
                 <li><a href="/Education" className={styles.navItem}>Education</a></li>
                 <li><a href="/contact" className={styles.navItem}>Contact</a></li>
-                <li><a href="/accessBugs" className={styles.navItem}>AccessBugs</a></li>
                 <li><a href="/accessBugsTwo" className={styles.navItem}>AccessBugsTwo</a></li>
                 <li><a href="/accessBugsThree" className={styles.navItem}>AccessBugsThree</a></li>
               </ul>
@@ -74,7 +73,6 @@ const ScrollableHeader = ({ title }) => {
                 <li><a href="/experience" className={styles.navItem}>Experience</a></li>
                 <li><a href="/Education" className={styles.navItem}>Education</a></li>
                 <li><a href="/contact" className={styles.navItem}>Contact</a></li>
-                <li><a href="/accessBugs" className={styles.navItem}>accessBugs</a></li>
                 <li><a href="/accessBugsTwo" className={styles.navItem}>accessBugsTwo</a></li>
                 <li><a href="/accessBugsThree" className={styles.navItem}>accessBugsThree</a></li>
               </ul>
