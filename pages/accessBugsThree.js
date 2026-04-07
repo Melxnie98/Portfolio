@@ -36,7 +36,8 @@ export default function AccessPage({ posts, globalData }) {
         <h3>This should be a h2 </h3>
         <h1>there should not be another h1</h1>
         <p>the below image has no alt text</p>
-        <img src="https://www.katebackdrop.com/cdn/shop/files/186c369d720a6a3ee241c955d9f4ca46.jpg?v=1736844070&width=700" ></img>
+        <p>added alt </p>
+        <img alt="cute dragon " src="https://www.katebackdrop.com/cdn/shop/files/186c369d720a6a3ee241c955d9f4ca46.jpg?v=1736844070&width=700" ></img>
           
            
         
