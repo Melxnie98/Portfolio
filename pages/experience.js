@@ -68,7 +68,7 @@ export default function ExperiancePage({ posts, globalData }) {
           <p>
             At University College Cork, I was as a Laboratory Demonstrator, guiding students in various aspects of audio and sound engineering(Logic pro, ProTools & ChucK), web development for digital media (HTML, CSS, PHP & JavaScript), 3D modelling and Animation (Blender), and authoring (Java for processing). I mentored students on recording music and voiceovers, provided tutorials on web development technologies, and facilitated workshops on Java programming and application development. Additionally, I assisted in teaching short film creation and production, fostering creativity and technical skills among students.
           </p>
-          </br>
+          <br/>
 
           <h2>Priority Operations Specialist, Telus International - Stripe (2022 - 2023)</h2>
           <p>
