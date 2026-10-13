@@ -36,7 +36,7 @@ export default function Index({ posts, globalData }) {
           Hello, I'm Melanie, a creative and innovative digital experience creator with a focus on accessibility. 
         </p>
         <p>
-          This is a next.js blog, created using netlify alongside github, I don't update it too regularly, it's kind of a dump onece every 6 months type vibe but hoping to keep it more up to date in the future so bare with me while I catch up on what I have been up to!
+          This is a next.js blog, created using netlify alongside github, I don't update it too regularly.
         </p>
         <p>
           Each of the posts below is little insights into work I have done over the last while, if you have any questions please feel free to get in touch.
