@@ -36,7 +36,7 @@ export default function ExperiancePage({ posts, globalData }) {
         <h2>Product Engineer - Nexus Inclusion (March 2025 - Current)</h2>
         STUFFFFFF i need tup update
         <h2>Learning Designer & Web Developer - University of Auckland (March 2024 - Jan 2025)</h2>
-          <ul>
+          <ul className="custom-bullets">
             <li>
               Upgrading the university’s learning and teaching practices website from campuspress to wordpress, with a complete redesign based on UX review. In charge of all custom php code. I was also responsible for maintenance of custom code including documentation on github.
             </li>
@@ -56,12 +56,13 @@ export default function ExperiancePage({ posts, globalData }) {
             General learning design - Developed learning exercises for Canvas using H5P. Focused on accessibility and Universal Design for Learning (UDL).
             </li>
           </ul>
+          <br>
 
           <h2>Freelance Web Designer/Developer (2023 - 2024)</h2>
           <p>
             As a Freelance Web Designer/Developer, I specialised in crafting responsive and visually appealing websites that prioritize usability and accessibility. Leveraging my expertise in Node.js, CSS, and HTML, I designed and implemented custom solutions tailored to meet clients' specific needs. With a keen eye for detail and a focus on optimization for speed and SEO, I delivered high-quality websites that elevated brands and enhanced user experiences.
           </p>
-          <br></br>
+          <br>
 
           <h2>Laboratory Demonstrator, University College Cork (2023)</h2>
           <p>
@@ -72,7 +73,7 @@ export default function ExperiancePage({ posts, globalData }) {
           <p>
             As a Priority Operations Specialist at Telus International - Stripe, I began as a customer support specialist before swiftly transitioning to handle more technical and critical issues. I provided support for Stripe products, including API support and resolution of disputes, account issues, and suspicious activity claims. My role involved delivering exceptional customer service via chat, email, and phone, ensuring timely resolution of issues to maintain customer satisfaction.
           </p>
-          <br></br>
+          <br>
           <h2>Customer Support Representative, SAP Galway (2021 - 2022)</h2>
           <p>
             During my tenure at SAP Galway, as part of the iXP intern program, I offered customer support services to clients worldwide, with a focus on Spanish and English-speaking customers. I actively participated in SAP's Dev X Challenge, contributing to a team that won first prize for developing innovative solutions to enhance mobility in Dublin. My role involved resolving customer inquiries, providing technical assistance, and fostering positive customer relationships.
