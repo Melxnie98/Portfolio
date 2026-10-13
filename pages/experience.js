@@ -33,7 +33,9 @@ export default function ExperiancePage({ posts, globalData }) {
 
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">Professional experience</h1>
-        <h2>Learning Designer & Web Developer (March 2024 - current)</h2>
+        <h2>Product Engineer - Nexus Inclusion (March 2025 - Current)</h2>
+        STUFFFFFF i need tup update
+        <h2>Learning Designer & Web Developer - University of Auckland (March 2024 - Jan 2025)</h2>
           <ul>
             <li>
               Upgrading the university’s learning and teaching practices website from campuspress to wordpress, with a complete redesign based on UX review. In charge of all custom php code. I was also responsible for maintenance of custom code including documentation on github.
