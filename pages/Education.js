@@ -33,41 +33,34 @@ export default function UniversityPage({ posts, globalData }) {
       <h1 className="text-3xl lg:text-5xl text-center mb-12">
         Education
       </h1>
-        <p> My educational journey has been a rich tapestry of linguistic exploration, cultural immersion, and technological innovation. My time at UCC and UL has largely shaped the direction of my career and I am thoroughly gratefull to have had the experiance to study and later work as a GTA in UCC. for some more in depth information on the specifics of my university education keep reading, if you don't really care thats ok too!</p>
-        <div class="contentBlock">
-          <h2>University College Cork</h2>
-          <p>
-              In 2024 I received a first class honours Master of (computer) Science degree in Interactive Media, where I delved into the cutting-edge realms of digital design and technology. Here, I had the opportunity to engage in a diverse range of projects that pushed the boundaries of innovation and creativity. One of the highlights of my master's program was my thesis project, which involved the development, implementation, and evaluation of a VR tool for empathy training in student Intellectual Disability Nurses. This project incorporated elements such as 360-degree video, ambisonic sound, and haptic feedback, providing a immersive and impactful learning experience. The success of this project not only demonstrated my technical proficiency but also drove my passion for using technology for social good, pushing me to seek further education in accessibility and accessible design.
-          </p>
-          <br></br>
-          <p>Throughout my academic journey, I've honed my skills in 3D animation, audio application development, iOS app development, and web development, further solidifying my expertise in leveraging technology to create impactful solutions. These experiences have not only shaped my academic and professional trajectory but have also instilled in me a lifelong commitment to innovation and continuous learning.</p>
-          <p>
-              Modules Studied:
-              <ul class="custom-bullets">
-                  <li>Authoring</li>
-                  <li>Web Development for Digital Media</li>
-                  <li>Graphics for Interactive Media</li>
-                  <li>Audio and Sound Engineering</li>
-                  <li>Digital Video Capture and Packaging</li>
-                  <li>3D Graphics and Modelling</li>
-                  <li>Future and Emerging Interaction Technologies</li>
-                  <li>Internet-based Applications</li>
-                  <li>Digital Video Compression and Delivery</li>
-                  <li>Human-Computer Interaction</li>
-                  <li>Mobile Multimedia</li>
-                  <li>Audio Processing</li>
-              </ul>
-          </p>
-        </div>
-        <div class="contentBlock">
+      <div class="contentBlock">
+        <h2>University College Cork</h2>
+        <p>In 2024 I received a first class honours Master of (computer) Science degree in Interactive Media, where I delved into the cutting-edge realms of digital design and technology. Here, I had the opportunity to engage in a diverse range of projects that pushed the boundaries of innovation and creativity. One of the highlights of my master's program was my thesis project, which involved the development, implementation, and evaluation of a VR tool for empathy training in student Intellectual Disability Nurses. This project incorporated elements such as 360-degree video, ambisonic sound, and haptic feedback, providing a immersive and impactful learning experience. The success of this project not only demonstrated my technical proficiency but also drove my passion for using technology for social good, pushing me to seek further education in accessibility and accessible design.</p>
+        <br/>
+        <p>Throughout my academic journey, I've honed my skills in 3D animation, audio application development, iOS app development, and web development, further solidifying my expertise in leveraging technology to create impactful solutions. These experiences have not only shaped my academic and professional trajectory but have also instilled in me a lifelong commitment to innovation and continuous learning.</p>
+        <p>Modules Studied:</p>
+          <ul class="custom-bullets">
+              <li>Authoring</li>
+              <li>Web Development for Digital Media</li>
+              <li>Graphics for Interactive Media</li>
+              <li>Audio and Sound Engineering</li>
+              <li>Digital Video Capture and Packaging</li>
+              <li>3D Graphics and Modelling</li>
+              <li>Future and Emerging Interaction Technologies</li>
+              <li>Internet-based Applications</li>
+              <li>Digital Video Compression and Delivery</li>
+              <li>Human-Computer Interaction</li>
+              <li>Mobile Multimedia</li>
+              <li>Audio Processing</li>
+          </ul>
+      </div>
+      <div class="contentBlock">
         <h2>University of Limerick</h2>
         <p>
           In 2022 I completed my Bachelor of Arts with a focus on languages and linguistics, specializing in Teaching English to Speakers of Other Languages (TESOL) while also delving into Spanish and Japanese language and culture. During my undergraduate studies, I undertook a significant translation project, translating Ciro Alegría’s "Fábulas y Leyendas de Latinoamérica" into English, which deepened my appreciation for language and literature. This project not only sharpened my language skills but also instilled in me a profound understanding of cross-cultural communication and storytelling.
         </p>
         <br></br>
-        <p>
-            My academic pursuits extended beyond linguistics into the realms of sociology, philosophy, and new media studies, providing me with a holistic understanding of the interconnectedness of language, society, and technology. This interdisciplinary approach fueled my curiosity and laid the groundwork for my future endeavors in the realm of interactive media.
-        </p>
+        <p>My academic pursuits extended beyond linguistics into the realms of sociology, philosophy, and new media studies, providing me with a holistic understanding of the interconnectedness of language, society, and technology. This interdisciplinary approach fueled my curiosity and laid the groundwork for my future endeavors in the realm of interactive media. </p>
         <p> Key Modules:</p>
         <ul class="custom-bullets">
             <li>Translation of Ciro Alegría’s "Fábulas y Leyendas de Latinoamérica"</li>
@@ -83,21 +76,21 @@ export default function UniversityPage({ posts, globalData }) {
             <li>Media and Current Issues in the Spanish-speaking World</li>
             <li>Women's Narratives of Resistance in the Hispanic World Spain, Europe, and Beyond</li>
         </ul>
-        </div>
-         <Quiz/>
-        
-      </main>
-      <Footer copyrightText={globalData.footerText} />
-      <GradientBackground
-        variant="large"
-        className="fixed top-20 opacity-40 dark:opacity-60"
-      />
-      <GradientBackground
-        variant="small"
-        className="absolute bottom-0 opacity-20 dark:opacity-10"
-      />
-     
-      </Layout>
+      </div>
+        <Quiz/>
+      
+    </main>
+    <Footer copyrightText={globalData.footerText} />
+    <GradientBackground
+      variant="large"
+      className="fixed top-20 opacity-40 dark:opacity-60"
+    />
+    <GradientBackground
+      variant="small"
+      className="absolute bottom-0 opacity-20 dark:opacity-10"
+    />
+    
+    </Layout>
   );
 };
 
