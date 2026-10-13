@@ -27,17 +27,12 @@ export default function UniversityPage({ posts, globalData }) {
         <title>Melanie Leonard - Education</title>
         <SEO title={globalData.name + " - Education"} description={globalData.blogTitle} />
       </Head>
-      <Header>
-        <title>Education</title>
-        
-      </Header>
+      <Header><title>Education</title></Header>
 
       <main className="w-full">
       <h1 className="text-3xl lg:text-5xl text-center mb-12">
         Education
-        </h1>
-        
-        <Quiz/>
+      </h1>
         <p> My educational journey has been a rich tapestry of linguistic exploration, cultural immersion, and technological innovation. My time at UCC and UL has largely shaped the direction of my career and I am thoroughly gratefull to have had the experiance to study and later work as a GTA in UCC. for some more in depth information on the specifics of my university education keep reading, if you don't really care thats ok too!</p>
         <div class="contentBlock">
           <h2>University College Cork</h2>
@@ -45,9 +40,7 @@ export default function UniversityPage({ posts, globalData }) {
               In 2024 I received a first class honours Master of (computer) Science degree in Interactive Media, where I delved into the cutting-edge realms of digital design and technology. Here, I had the opportunity to engage in a diverse range of projects that pushed the boundaries of innovation and creativity. One of the highlights of my master's program was my thesis project, which involved the development, implementation, and evaluation of a VR tool for empathy training in student Intellectual Disability Nurses. This project incorporated elements such as 360-degree video, ambisonic sound, and haptic feedback, providing a immersive and impactful learning experience. The success of this project not only demonstrated my technical proficiency but also drove my passion for using technology for social good, pushing me to seek further education in accessibility and accessible design.
           </p>
           <br></br>
-          <p>
-              Throughout my academic journey, I've honed my skills in 3D animation, audio application development, iOS app development, and web development, further solidifying my expertise in leveraging technology to create impactful solutions. These experiences have not only shaped my academic and professional trajectory but have also instilled in me a lifelong commitment to innovation and continuous learning.
-          </p>
+          <p>Throughout my academic journey, I've honed my skills in 3D animation, audio application development, iOS app development, and web development, further solidifying my expertise in leveraging technology to create impactful solutions. These experiences have not only shaped my academic and professional trajectory but have also instilled in me a lifelong commitment to innovation and continuous learning.</p>
           <p>
               Modules Studied:
               <ul class="custom-bullets">
@@ -91,6 +84,7 @@ export default function UniversityPage({ posts, globalData }) {
             <li>Women's Narratives of Resistance in the Hispanic World Spain, Europe, and Beyond</li>
         </ul>
         </div>
+         <Quiz/>
         
       </main>
       <Footer copyrightText={globalData.footerText} />
