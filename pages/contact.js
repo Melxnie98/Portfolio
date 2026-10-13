@@ -30,9 +30,8 @@ export default function ContactPage({ posts, globalData }) {
       </Header>
 
       <main className="w-full">
-        <h1 className="text-3xl lg:text-5xl text-center mb-12">Contact me</h1>
-        
-        <ContactForm  />
+        <h1 className="text-3xl lg:text-5xl text-center mb-12">Get in touch:</h1>
+        <ContactForm />
         
       </main>
       <Footer copyrightText={globalData.footerText} />
