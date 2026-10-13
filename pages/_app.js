@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <span className="theme-bejamas" />
-      <FixedHeader title="+64 (0)21 276 1137" />
+      <FixedHeader title="+353831381137" />
       <ScrollableHeader />
       <Component {...pageProps} />
     </>
