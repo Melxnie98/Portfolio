@@ -56,13 +56,13 @@ export default function ExperiancePage({ posts, globalData }) {
             General learning design - Developed learning exercises for Canvas using H5P. Focused on accessibility and Universal Design for Learning (UDL).
             </li>
           </ul>
-          <br>
+          <br><br/>
 
           <h2>Freelance Web Designer/Developer (2023 - 2024)</h2>
           <p>
             As a Freelance Web Designer/Developer, I specialised in crafting responsive and visually appealing websites that prioritize usability and accessibility. Leveraging my expertise in Node.js, CSS, and HTML, I designed and implemented custom solutions tailored to meet clients' specific needs. With a keen eye for detail and a focus on optimization for speed and SEO, I delivered high-quality websites that elevated brands and enhanced user experiences.
           </p>
-          <br>
+          <br><br/>
 
           <h2>Laboratory Demonstrator, University College Cork (2023)</h2>
           <p>
